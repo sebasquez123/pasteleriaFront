@@ -57,12 +57,11 @@ const Contact = ({ textos }) => {
 
 
 
-            return await { titulo: 'Muy bien', cuerpo: 'Mensaje enviado con exito, Gracias por tu apoyo!' };
+            return await { titulo: 'Muy bien', cuerpo: 'Mensaje enviado con exito,nos pondremos en contacto contigo, Gracias por ser tu!!' };
 
         }
         catch (error) {
             console.log('Error al obtener los datos:', error.response.data);
-
             return await { titulo: 'Ups!', cuerpo: "Esta sección esta desactivada, vuelve a intentar en un rato!" };
         }
     }

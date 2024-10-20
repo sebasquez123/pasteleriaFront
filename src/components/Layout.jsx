@@ -47,7 +47,7 @@ const Layout = ({ constants, bodyimg, bodytext }) => {
                 <Rights />
             </footer>
             <Link to="header" className="btn botonletras btn-lg-square rounded-circle back-to-top" smooth={true} duration={300}><i className="fa fa-arrow-up"></i></Link>
-            <Chatbot sugerences={constants.sugerencias} />
+            {/* <Chatbot sugerences={constants.sugerencias} /> */}
 
 
 
