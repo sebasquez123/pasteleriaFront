@@ -41,7 +41,7 @@ const Partners = ({ imagenes, textos }) => {
                 <div className="container-fluid team pb-5">
                     <div className="container pb-5">
                         <div className="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style={{ maxWidth: '800px', visibility: 'visible', animationDelay: '0.2s', animationName: 'fadeInUp' }}>
-                            {/* <h2 className="color1 fw-bold">Algunos productos</h2> */}
+                            <h2 className="color1 fw-bold">Nuestro trabajo!</h2>
                             <h1 className="display-5 mb-4 cursiva color3">Algunos Productos</h1>
                             <p className="mb-0" style={{ textAlign: 'justify' }}>En <strong>Pastelería Alicia</strong> nuestra variedad de productos refleja la pasión por crear experiencias únicas para cada ocasión. Los delicados y personalizados <strong>cupcakes</strong> son perfectos para cualquier evento, mientras que nuestras <strong>tortas frías</strong> ofrecen una opción fresca y deliciosa. La tradicional <strong>Torta de Tres Leches</strong>, suave y jugosa, es siempre un favorito, y la clásica <strong>María Luisa</strong>, más formal y sencilla, destaca por su elegancia y sabor refinado. Además, nuestras <strong>tortas ponqués decoradas</strong> se adaptan a todo tipo de temáticas, desde infantiles, llenas de color y diversión, hasta opciones más sobrias y personalizadas para adultos. Si lo que buscas es impresionar, nuestras <strong>tortas en fondant</strong> son verdaderas esculturas comestibles, creadas con esmero y precisión para transformarse en piezas únicas que asombran tanto por su estética como por su sabor.</p>
                         </div>

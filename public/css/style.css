@@ -1344,7 +1344,7 @@ color: #bfbfbf;
         display: none;
     }
     #spinertext{
-        margin-left: 20px !important;
+        margin-left: 45px !important;
         font-size: 15px !important;
         width: 200px !important;
     }
@@ -1366,18 +1366,26 @@ color: #bfbfbf;
         button{
             width: 50px !important;
             height: 20px !important;
-            background-color: #0062ff ;
+            background-color: #ff5bcb ;
             border-radius: 20px !important;
         }
     }
     #textheader{
         padding: 0px 10px 10px 10px !important;
         font-size: 15px !important; 
-        font-family: 'Courier New', Courier, monospace;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif';
     }
 
     .m2-xl{
         margin-left: 10px !important;
     }
+
+    .cursiva{
+        
+        font-family: 'Brush Script MT';
+        font-size: 40px;
+
+    }
+    
 
 }

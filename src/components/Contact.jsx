@@ -57,7 +57,7 @@ const Contact = ({ textos }) => {
 
 
 
-            return await { titulo: 'Muy bien', cuerpo: 'Mensaje enviado con exito, Gracias por ser tu!!' };
+            return await { titulo: 'Muy bien', cuerpo: 'Mensaje enviado con exito, Gracias por ser parte de Alicia!!' };
 
         }
         catch (error) {
