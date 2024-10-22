@@ -65,7 +65,7 @@ const Partners = ({ imagenes, textos }) => {
                                                     </p>
                                                 </div>
                                                 <hr />
-                                                <div className="team-icon" style={{ textAlign: 'center' }}>
+                                                <div className="team-icon color1 fw-bold" style={{ textAlign: 'center' }}>
                                                     {txt.integrante1.cargo}
                                                 </div>
                                             </div>
@@ -82,7 +82,7 @@ const Partners = ({ imagenes, textos }) => {
                                                     <p className="mb-0">{txt.integrante2.perfil}</p>
                                                 </div>
                                                 <hr />
-                                                <div className="team-icon" style={{ textAlign: 'center' }}>
+                                                <div className="team-icon color1 fw-bold" style={{ textAlign: 'center' }}>
                                                     {txt.integrante2.cargo}
                                                 </div>
                                             </div>
@@ -99,7 +99,7 @@ const Partners = ({ imagenes, textos }) => {
                                                     <p className="mb-0">{txt.integrante3.perfil}</p>
                                                 </div>
                                                 <hr />
-                                                <div className="team-icon" style={{ textAlign: 'center' }}>
+                                                <div className="team-icon color1 fw-bold" style={{ textAlign: 'center' }}>
                                                     {txt.integrante3.cargo}
                                                 </div>
                                             </div>
@@ -116,7 +116,7 @@ const Partners = ({ imagenes, textos }) => {
                                                     <p className="mb-0">{txt.integrante4.perfil}</p>
                                                 </div>
                                                 <hr />
-                                                <div className="team-icon" style={{ textAlign: 'center' }}>
+                                                <div className="team-icon color1 fw-bold" style={{ textAlign: 'center' }}>
                                                     {txt.integrante4.cargo}
                                                 </div>
                                             </div>
@@ -138,7 +138,7 @@ const Partners = ({ imagenes, textos }) => {
                                                     <p className="mb-0">{txt.integrante5.perfil}</p>
                                                 </div>
                                                 <hr />
-                                                <div className="team-icon" style={{ textAlign: 'center' }}>
+                                                <div className="team-icon color1 fw-bold" style={{ textAlign: 'center' }}>
                                                     {txt.integrante5.cargo}
                                                 </div>
                                             </div>
@@ -155,7 +155,7 @@ const Partners = ({ imagenes, textos }) => {
                                                     <p className="mb-0">{txt.integrante6.perfil}</p>
                                                 </div>
                                                 <hr />
-                                                <div className="team-icon" style={{ textAlign: 'center' }}>
+                                                <div className="team-icon color1 fw-bold" style={{ textAlign: 'center' }}>
                                                     {txt.integrante6.cargo}
                                                 </div>
                                             </div>
@@ -172,7 +172,7 @@ const Partners = ({ imagenes, textos }) => {
                                                     <p className="mb-0">{txt.integrante7.perfil}</p>
                                                 </div>
                                                 <hr />
-                                                <div className="team-icon" style={{ textAlign: 'center' }}>
+                                                <div className="team-icon color1 fw-bold" style={{ textAlign: 'center' }}>
                                                     {txt.integrante7.cargo}
                                                 </div>
                                             </div>
@@ -189,7 +189,7 @@ const Partners = ({ imagenes, textos }) => {
                                                     <p className="mb-0">{txt.integrante8.perfil}</p>
                                                 </div>
                                                 <hr />
-                                                <div className="team-icon" style={{ textAlign: 'center' }}>
+                                                <div className="team-icon color1 fw-bold" style={{ textAlign: 'center' }}>
                                                     {txt.integrante8.cargo}
                                                 </div>
                                             </div>
@@ -208,7 +208,7 @@ const Partners = ({ imagenes, textos }) => {
                                                     <p className="mb-0">{txt.integrante9.perfil}</p>
                                                 </div>
                                                 <hr />
-                                                <div className="team-icon" style={{ textAlign: 'center' }}>
+                                                <div className="team-icon color1 fw-bold" style={{ textAlign: 'center' }}>
                                                     {txt.integrante9.cargo}
                                                 </div>
                                             </div>
@@ -225,7 +225,7 @@ const Partners = ({ imagenes, textos }) => {
                                                     <p className="mb-0">{txt.integrante10.perfil}</p>
                                                 </div>
                                                 <hr />
-                                                <div className="team-icon" style={{ textAlign: 'center' }}>
+                                                <div className="team-icon color1 fw-bold" style={{ textAlign: 'center' }}>
                                                     {txt.integrante10.cargo}
                                                 </div>
                                             </div>
@@ -242,7 +242,7 @@ const Partners = ({ imagenes, textos }) => {
                                                     <p className="mb-0">{txt.integrante11.perfil}</p>
                                                 </div>
                                                 <hr />
-                                                <div className="team-icon" style={{ textAlign: 'center' }}>
+                                                <div className="team-icon color1 fw-bold" style={{ textAlign: 'center' }}>
                                                     {txt.integrante11.cargo}
                                                 </div>
                                             </div>
@@ -259,10 +259,10 @@ const Partners = ({ imagenes, textos }) => {
                         </div>
                     </div>
                     <button id="carouselbtn1" className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev" style={{ width: '3%', position: 'relative', bottom: '0', top: '-280px', left: '0%' }}>
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="#FFD43B" d="M512 256A256 256 0 1 0 0 256a256 256 0 1 0 512 0zM215 127c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-71 71L392 232c13.3 0 24 10.7 24 24s-10.7 24-24 24l-214.1 0 71 71c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0L103 273c-9.4-9.4-9.4-24.6 0-33.9L215 127z" /></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="#ff007b" d="M512 256A256 256 0 1 0 0 256a256 256 0 1 0 512 0zM215 127c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-71 71L392 232c13.3 0 24 10.7 24 24s-10.7 24-24 24l-214.1 0 71 71c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0L103 273c-9.4-9.4-9.4-24.6 0-33.9L215 127z" /></svg>
                     </button>
                     <button id="carouselbtn2" className="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next" style={{ width: '3%', position: 'relative', bottom: '0', top: '-325px', left: '97%' }}>
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="#FFD43B" d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM297 385c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l71-71L120 280c-13.3 0-24-10.7-24-24s10.7-24 24-24l214.1 0-71-71c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0L409 239c9.4 9.4 9.4 24.6 0 33.9L297 385z" /></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="#ff007b" d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM297 385c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l71-71L120 280c-13.3 0-24-10.7-24-24s10.7-24 24-24l214.1 0-71-71c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0L409 239c9.4 9.4 9.4 24.6 0 33.9L297 385z" /></svg>
                     </button>
                 </div>
             </div>
