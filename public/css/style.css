@@ -1349,7 +1349,7 @@ color: #bfbfbf;
         width: 200px !important;
     }
     #navmainbar{
-        background-color: #ff5bcb !important;
+        background-color: var(--color1) !important;
     }
 
     #textproposal{
@@ -1366,7 +1366,7 @@ color: #bfbfbf;
         button{
             width: 50px !important;
             height: 20px !important;
-            background-color: #ff5bcb ;
+            background-color: var(--color1) ;
             border-radius: 20px !important;
         }
     }
