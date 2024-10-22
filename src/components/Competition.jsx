@@ -28,7 +28,7 @@ const Competition = ({ imagenes, textos }) => {
                 <div className="container pb-4">
                     <div className="text-center mx-auto pb-5 pt-5 wow fadeInUp" data-wow-delay="0.2s" style={{ maxWidth: '80%', visibility: 'visible', animationDelay: '0.2s', animationName: 'fadeInUp' }}>
                         <h2 className="color1 fw-bold "> ¿¡Como comprar!?</h2>
-                        <h1 className="display-5 mb-4 color3 cursiva" style={{ fontSize: '50px' }}>Recomendaciones para hacer tu cotización</h1>
+                        <h2 className="display-5 mb-4 color3 cursiva" >Recomendaciones para hacer tu cotización</h2>
                         <p className="mb-0 color3" style={{ textAlign: 'justify' }}>Somos una empresa dedicada a atender tus necesidades de manera personalizada, por lo que te recomendamos seguir los siguientes pasos para hacer de tu experiencia algo mas sencillo y eficaz. <br /> Ya sabes o tienes idea de que deseas comprar o solo deseas COTIZAR tu idea pero no conoces como hacerlo? Esto es para ti.
                         </p>
                     </div>
