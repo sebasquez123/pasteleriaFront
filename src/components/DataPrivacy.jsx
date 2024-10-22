@@ -19,7 +19,7 @@ const DataPrivacy = ({ bodyimg }) => {
                     <nav className=" background3" style={{ position: 'relative', width: '100%', height: '70px', display: 'flex', flexDirection: 'row', justifyContent: 'space-between', padding: '10px 50px 0px 50px' }} >
                         <Link to="/" className="navbar-brand p-0 navbar-nav " style={cursor}>
                             <h1 id="tituloss" >
-                                <img src={imagen.titulo} style={{ width: '60%' }} alt="fuente-soft-type-jersey" border="0" /></h1>
+                                <img src={imagen.titulo} style={{ width: '40%' }} alt="fuente-soft-type-jersey" border="0" /></h1>
                         </Link>
 
                         <div >
@@ -34,7 +34,7 @@ const DataPrivacy = ({ bodyimg }) => {
                             <h3 className="color1">Privacidad de datos personales</h3>
                             <strong style={{ textAlign: 'justify' }}>La Constitución Política de Colombia estableció en el artículo 15 el derecho de protección de datos personales como el derecho de toda persona para conocer, actualizar, rectificar y/o cancelar la información y datos personales que de ella se hayan recolectado y/o se traten en bases de datos públicas o privadas.
                                 Mediante la Ley 1581 del 17 de octubre de 2012, el Congreso de la República reglamentó el ya mencionado derecho al establecer las Disposiciones Generales para la Protección de Datos Personales en Colombia, igualmente reglamentada por los Decretos 1377 de 2013 y 886 de 2014 (hoy incorporados en el Decreto único 1074 de 2015), entre otros.
-                                MACMOTUS se compromete a proteger y respetar su privacidad. Puede visitar MACMOTUS en la web sin decirnos quién es ni revelarnos información personal. Su información consignada se almacena en un servidor seguro hasta la finalizacion de la campaña y nunca se venderá a terceras partes ni se utilizará para enviar materia publicitaria o anuncios, sin su consentimiento.
+                                Pasteleria Alicia se compromete a proteger y respetar su privacidad. Puede visitar Pasteleria Alicia en la web sin decirnos quién es ni revelarnos información personal. Su información consignada se almacena en un servidor seguro exclusivamente para contactarlo o enviar materia promocional y nunca se venderá a terceras partes ni se utilizará para enviar materia publicitaria engañosa o malintencionada. Sea expresa su intención por no desear dicho comportamiento se respetara y cesara inmediato dicha actividad.
                                 Si decide facilitarnos información personal a través del aplicativo que pueda usarse para ponernos en contacto con usted, es nuestra intención hacerle saber cómo vamos a utilizar esta información. Si nos comunica que no desea que dicha información se utilice para contactos posteriores, respetaremos sus deseos.</strong>
                         </div>
 

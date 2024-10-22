@@ -31,10 +31,9 @@ const Progress = ({ imagenes, textos }) => {
             <div id="avances" className="container-fluid service pb-5">
                 <div className="container pb-5">
                     <div className="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style={{ maxWidth: '800px', visibility: 'visible', animationDelay: '0.2s', animationName: 'fadeInUp' }}>
-                        <h2 className="color1 fw-bold">¿¡Como va eso!?</h2>
-                        <h1 className="display-5 mb-4">Avances del proyecto aeromodelo</h1>
-                        <p className="mb-0" style={{ textAlign: 'justify' }}>Nuestro principal propósito es que el proyecto salga a vuelo con los mejores resultados, utilizando las mejores técnicas y destrezas. Para eso contamos con laboratorios, espacios de trabajo, equipos y herramientas especializadas en aeromodelismo, además contamos con la colaboración de proveedores como Tecno Hobbies y Maderas de Occidente.
-                        </p>
+                        <h2 className="color1 fw-bold">¿¡Que te ofrecemos!?</h2>
+                        <h1 className="display-5 mb-4 cursiva color3">Nuestras Categorias</h1>
+                        <p className="mb-0" style={{ textAlign: 'justify' }}>En <strong>Pastelería Alicia</strong>, cada cliente encuentra un producto ideal para su gusto y ocasión. Nos especializamos en diversas categorías que reflejan nuestra pasión por la repostería y nuestro compromiso con la calidad. Desde bizcochos esponjosos que destacan por su ligereza, pasando por los clásicos ponqués llenos de tradición, hasta las más impresionantes creaciones artísticas con fondant. Cada categoría ha sido cuidadosamente diseñada para deleitar tus sentidos y hacer que cada momento, desde una merienda cotidiana hasta una celebración especial, sea inolvidable.</p>
 
                     </div>
                     <div className="row g-4">
@@ -46,7 +45,7 @@ const Progress = ({ imagenes, textos }) => {
                                 <div className="rounded-bottom p-4 limit-text">
                                     <a href="/" className="h4 d-inline-block mb-4 letras" onClick={(e) => e.preventDefault()} >{txt.titulo1.titulo}</a>
                                     <p className="mb-4" style={{ textAlign: 'justify' }} dangerouslySetInnerHTML={{ __html: txt.titulo1.texto }}></p>
-                                    <Link className="btn botonletras rounded-pill py-2 px-4" to="donar" smooth={true} duration={300}>Saber Mas</Link>                                </div>
+                                    <a className="btn botonletras rounded-pill py-2 px-4 background1 color4" target="blank" href="https://wa.me/573126567098?text=Que$20precio$20tienes$20las$20tortas$20frias?" smooth={true} duration={300}>Saber Mas</a>                                </div>
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s" style={{ visibility: 'visible', animationDelay: '0.6s', animationName: 'fadeInUp' }}>
@@ -57,7 +56,7 @@ const Progress = ({ imagenes, textos }) => {
                                 <div className="rounded-bottom p-4 limit-text">
                                     <a href="/" className="h4 d-inline-block mb-4 letras" onClick={(e) => e.preventDefault()}>{txt.titulo2.titulo}</a>
                                     <p className="mb-4" style={{ textAlign: 'justify' }} dangerouslySetInnerHTML={{ __html: txt.titulo2.texto }}></p>
-                                    <Link className="btn botonletras rounded-pill py-2 px-4" to="donar" smooth={true} duration={300}>Saber Mas</Link>                                </div>
+                                    <a className="btn botonletras rounded-pill py-2 px-4 background1 color4" target="blank" href="https://wa.me/573126567098?text=Que$20precio$20tienes$20las$20tortas$20en%20ponqué$20decoradas?" smooth={true} duration={300}>Saber Mas</a>                                </div>
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s" style={{ visibility: 'visible', animationDelay: '0.4s', animationName: 'fadeInUp' }}>
@@ -68,7 +67,7 @@ const Progress = ({ imagenes, textos }) => {
                                 <div className="rounded-bottom p-4 limit-text">
                                     <a href="##" className="h4 d-inline-block mb-4 letras" onClick={(e) => e.preventDefault()}>{txt.titulo3.titulo}</a>
                                     <p className="mb-4" style={{ textAlign: 'justify' }} dangerouslySetInnerHTML={{ __html: txt.titulo3.texto }}></p>
-                                    <Link className="btn botonletras rounded-pill py-2 px-4" to="donar" smooth={true} duration={300} >Saber Mas</Link>
+                                    <a className="btn botonletras rounded-pill py-2 px-4 background1 color4" target="blank" href="https://wa.me/573126567098?text=Que$20precio$20tienes$20las$20tortas$20en%20fondant?" smooth={true} duration={300} >Saber Mas</a>
                                 </div>
                             </div>
                         </div>

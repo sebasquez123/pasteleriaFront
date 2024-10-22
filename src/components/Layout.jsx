@@ -28,17 +28,16 @@ const Layout = ({ constants, bodyimg, bodytext }) => {
             <main style={{ height: "100%", justifyContent: "center", alignContent: "center", position: 'relative' }}>
                 <Intro imagenes={cuerpoimg} />
                 <br />
-                <Explore imagenes={cuerpoimg} textos={cuerpotext} />
+                <Progress imagenes={cuerpoimg} textos={cuerpotext} />
                 <br />
                 <Partners imagenes={cuerpoimg} textos={cuerpotext} />
                 <br />
                 <Competition imagenes={cuerpoimg} textos={cuerpotext} />
                 <br />
-                <Progress imagenes={cuerpoimg} textos={cuerpotext} />
-                <br />
-                <Curiosities imagenes={cuerpoimg} textos={cuerpotext} />
-                <br />
-                <Business imagenes={cuerpoimg} />
+
+                {/* <Curiosities imagenes={cuerpoimg} textos={cuerpotext} /> */}
+
+                {/* <Business imagenes={cuerpoimg} /> */}
                 <br />
                 <Contact textos={cuerpotext} />
             </main>
@@ -46,7 +45,7 @@ const Layout = ({ constants, bodyimg, bodytext }) => {
                 <Footer textos={cuerpotext} />
                 <Rights />
             </footer>
-            <Link to="header" className="btn botonletras btn-lg-square rounded-circle back-to-top" smooth={true} duration={300}><i className="fa fa-arrow-up"></i></Link>
+            <Link to="header" className="btn botonletras btn-lg-square rounded-circle back-to-top background1 color4" smooth={true} duration={300}><i className="fa fa-arrow-up"></i></Link>
             {/* <Chatbot sugerences={constants.sugerencias} /> */}
 
 

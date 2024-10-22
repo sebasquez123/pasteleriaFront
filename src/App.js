@@ -63,8 +63,8 @@ const [spiner, setSpiner] = useState('spinershow');
 
       
        <div className={spiner} >
-          <div className="spinner-border " style={{color:'#0062ff'}} role="status"></div>
-          <strong id="spinertext" className="color3" style={{ fontSize: '20px', marginLeft: '15px' }}>CARGANDO CONTENIDO...</strong>
+          <div className="spinner-border " style={{color:'deeppink'}} role="status"></div>
+          <strong id="spinertext" style={{ fontSize: '20px', marginLeft: '15px' }}>Cargando Contenido...</strong>
       </div>
 
     </>

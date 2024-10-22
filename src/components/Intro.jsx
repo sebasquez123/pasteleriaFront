@@ -16,22 +16,22 @@ const Intro = ({ imagenes }) => {
 
     return (
         <>
-            <div id="intro" className="container-fluid about py-5">
+            <div id="explore" className="container-fluid about py-5">
                 <div className="container py-5">
                     <div className="row g-5 align-items-center">
                         <div className="col-xl-7 wow fadeInLeft" data-wow-delay="0.2s" style={{ visibility: 'visible', animationDelay: ' 0.2s', animationName: 'fadeInLeft' }}>
                             <div>
-                                <h2 className="color1 fw-bold">¿¡Que es todo esto!?</h2>
-                                <h1 className="display-5 mb-4">¡La oportunidad de ver todo desde arriba!</h1>
-                                <p className="mb-4" style={{ textAlign: 'justify' }}>Somos un equipo de aeromodelismo que va más allá de construir aviones: diseñamos sueños, perfeccionamos habilidades y enfrentamos desafíos que nos elevan, literalmente, a nuevas alturas. Este libro es más que una simple presentación: es un portal hacia nuestra misión, nuestras metas y nuestras aspiraciones como equipo y como país. Aquí descubrirás cómo la ciencia, el arte y la tecnología se combinan para crear algo increíble. Únete a nuestro viaje y vuela con nosotros mientras revolucionamos el cielo una vez más.
+                                <h2 className="color1 fw-bold">¡Desde 2004!</h2>
+                                <h1 className="display-5 mb-4 cursiva color3">¡Un poco de Nosotros!</h1>
+                                <p className="mb-4" style={{ textAlign: 'justify' }}>En Pastelería Alicia, somos una casa familiar dedicada a crear momentos inolvidables a través de pasteles artesanales llenos de sabor y tradición. Desde nuestros inicios en 2004, hemos trabajado con pasión y amor, cuidando cada detalle en nuestras recetas para convertir ingredientes simples en pequeñas obras de arte. Con más de 20 años de experiencia, continuamos evolucionando sin perder la esencia que nos caracteriza, garantizando siempre la seguridad y calidad de nuestros productos. Nuestro compromiso es ofrecerte lo mejor, con la confianza de que cada pieza está hecha con dedicación y compromiso...
                                 </p>
                                 <div className="row g-3">
                                     <div className="col-md-6 col-lg-6 col-xl-6">
                                         <div className="d-flex">
-                                            <div><i className="fas fa-lightbulb fa-3x color3"></i></div>
+                                            <div><i className="fas fa-palette fa-3x color3"></i></div>
                                             <div className="ms-4">
-                                                <h4>Ciencia y Tecnología</h4>
-                                                <p>¡Con ciencia y tecnología construimos herramientas para cultivar el éxito!</p>
+                                                <h4>Amor al arte</h4>
+                                                <p>Elaboramos postres artesanales con dedicación, cuidando cada detalle para emocionar con cada bocado.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -39,18 +39,18 @@ const Intro = ({ imagenes }) => {
                                         <div className="d-flex">
                                             <div><i className="fas fa-flag fa-3x color3"></i></div>
                                             <div className="ms-4">
-                                                <h4>Prestigio nacional</h4>
-                                                <p>Mas allá de ganar, es generar reconocimiento! </p>
+                                                <h4>Experiencia y proyección</h4>
+                                                <p>Más de 20 años perfeccionando nuestras recetas, siempre con la vista en el futuro. </p>
                                             </div>
                                         </div>
                                     </div>
 
                                     <div className="col-sm-12">
                                         <div className="d-flex">
-                                            <i className="fas fa-graduation-cap fa-3x me-4 color3"></i>
+                                            <i className="fas fa-id-badge fa-3x me-4 color3"></i>
                                             <div>
-                                                <h4>Cultura, trabajo y educación</h4>
-                                                <p>La colaboración y el compromiso con la comunidad y el sector empresarial es característico de nuestro enfoque profesional. </p>
+                                                <h4>Seguridad y compromiso</h4>
+                                                <p>No solo nos preocupamos por la calidad de nuestros productos, sino también por asegurar que lleguen a ti en perfectas condiciones. </p>
                                             </div>
                                         </div>
                                     </div>
@@ -59,8 +59,8 @@ const Intro = ({ imagenes }) => {
                         </div>
                         <div className="col-xl-5 wow fadeInRight" data-wow-delay="0.2s" style={{ visibility: 'visible', animationDelay: '0.2s', animationName: 'fadeInRight' }}>
                             <div className=" rounded position-relative overflow-hidden justify-content-center row">
-                                <img src={imagen.imagen1} className="img-fluid  w-100" style={{ borderRadius: '30px' }} alt="introduccion1" />
-                                <img src={imagen.imagen2} className="img-fluid  w-75" alt="introduccion2" />
+                                <img src={imagen.imagen1} className="img-fluid  w-75" style={{ borderRadius: '30px 30px 0px 0px' }} alt="introduccion1" />
+                                <img src={imagen.imagen2} className="img-fluid  w-75" alt="introduccion2" style={{ borderRadius: '0px 0px 30px 30px' }} />
                             </div>
                         </div>
                     </div>

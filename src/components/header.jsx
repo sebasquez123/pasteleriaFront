@@ -58,7 +58,7 @@ const Header = ({ constants, imagenes, textos }) => {
                             <div className="navbar-nav ms-auto py-0">
                                 {renderizarNavBar()}
                             </div>
-                            <Link to="donar" smooth={true} duration={300} style={cursor} className="btn botonletras rounded-pill py-2 px-4 my-3 my-lg-0 flex-shrink-0">Donar</Link>
+                            <Link to="donar" smooth={true} duration={300} style={cursor} className="btn botonletras rounded-pill py-2 px-4 my-3 my-lg-0 flex-shrink-0 background1 color4">Participa</Link>
                         </div>
                     </nav >
 
@@ -72,12 +72,12 @@ const Header = ({ constants, imagenes, textos }) => {
                             <div className="d-flex justify-content-center mb-4" ><img id="logocentro" src={imagen.logo} alt="logo" style={{ width: '20%', height: '20%' }} /></div>
 
                             <div className="text-center">
-                                <h4 className="color2 text-uppercase fw-bold mb-4" >{txt.titulo1}</h4>
-                                <h1 className="display-4 text-uppercase text-white mb-4">{txt.titulo2}</h1>
+                                <h4 className="color4 mb-2" >{txt.titulo1}</h4>
+                                <h1 className="color4 mb-2 cursiva" style={{ fontSize: '100px' }}>{txt.titulo2}</h1>
                                 <p id="textheader" className="mb-5 p-5 fs-5 color4" dangerouslySetInnerHTML={{ __html: txt.titulo3 }}></p>
                                 <div className="d-flex justify-content-center flex-shrink-0 mb-4">
                                     <a href={txt.video} className="btn btn-light  rounded-pill py-3 px-4 px-md-5 me-2" target='blank'><i className="fas fa-play-circle me-2"></i> Ver video</a>
-                                    <Link to="donar" smooth={true} duration={300} style={cursor} className="btn botonletras rounded-pill py-3 px-4 px-md-5 ms-2" >Escribenos</Link>
+                                    <Link to="donar" smooth={true} duration={300} style={cursor} className="btn botonletras rounded-pill py-3 px-4 px-md-5 ms-2 background1 color4" >Escribenos</Link>
                                 </div>
                                 <div className="d-flex align-items-center justify-content-center pb-4 pt-3">
                                     <h2 className="text-white me-2">Siguenos en:</h2>

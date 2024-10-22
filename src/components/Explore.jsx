@@ -26,25 +26,25 @@ const Explore = ({ imagenes, textos }) => {
             <div id="explore" className="container-fluid offer-section pb-5">
                 <div className="container pb-5">
                     <div className="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style={{ maxWidth: '800px', visibility: 'visible', animationDelay: '0.2s', animationName: 'fadeInUp' }}>
-                        <h2 className="color1 fw-bold">¿¡Quienes somos!?</h2>
-                        <h1 className="display-5 mb-4">Descubre de que estamos hechos!</h1>
-                        <p className="mb-0" style={{ textAlign: 'justify' }}> <strong>MacMotus</strong> es un conglomerado de soñadores, innovadores y apasionados por la ingeniería aeronáutica. Nuestro compromiso va más allá de crear modelos: construimos experiencias que desafían los límites del diseño, la precisión y la creatividad. Cada avión que fabricamos es una oportunidad para aprender, superar obstáculos y alcanzar nuevas alturas.
+                        <h2 className="color1 fw-bold">¿¡Como te puedo ayudar!?</h2>
+                        <h1 className="display-5 mb-4">Descubre nuestras categorias!</h1>
+                        <p className="mb-0" style={{ textAlign: 'justify' }}> <strong>Pasteleria Alicia</strong> es un conglomerado de soñadores, innovadores y apasionados por la ingeniería aeronáutica. Nuestro compromiso va más allá de crear modelos: construimos experiencias que desafían los límites del diseño, la precisión y la creatividad. Cada avión que fabricamos es una oportunidad para aprender, superar obstáculos y alcanzar nuevas alturas.
                         </p>
                     </div>
                     <div className="row align-items-center">
                         <div className="col-xl-4 wow fadeInLeft" data-wow-delay="0.2s" style={{ visibility: 'visible', animationDelay: '0.2s', animationName: 'fadeInLeft' }}>
                             <div className="nav nav-pills rounded p-4 background3" >
                                 <a className="accordion-link p-4 mb-4 active" data-bs-toggle="pill" href="#collapseOne">
-                                    <h5 className="mb-0">Nuestros Objetivos</h5>
+                                    <h5 className="mb-0">Pasteleria lucida</h5>
                                 </a>
                                 <a className="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseTwo">
-                                    <h5 className="mb-0">Nuestra Mision</h5>
+                                    <h5 className="mb-0">Pasteleria tradicional</h5>
                                 </a>
                                 <a className="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseThree">
-                                    <h5 className="mb-0">Nuestra Vision</h5>
+                                    <h5 className="mb-0">Pasteleria artistica</h5>
                                 </a>
                                 <a className="accordion-link p-4 mb-0" data-bs-toggle="pill" href="#collapseFour">
-                                    <h5 className="mb-0">Nuestro Logo</h5>
+                                    <h5 className="mb-0">Reposteria artesanal</h5>
                                 </a>
                             </div>
                         </div>
@@ -57,7 +57,7 @@ const Explore = ({ imagenes, textos }) => {
                                             <img src={imagen.objetivos} className="img-fluid w-100 rounded" alt="" />
                                         </div>
                                         <div className="col-md-5">
-                                            <h1 className="display-7 mb-4 text-center">Una mirada al cielo!</h1>
+                                            <h1 className="display-7 mb-4 text-center">Adecuadas para toda ocasión...!</h1>
                                             <p className="mb-4" style={{ textAlign: 'justify' }} dangerouslySetInnerHTML={{ __html: txt.objetivos }}></p>
 
                                         </div>
@@ -69,7 +69,7 @@ const Explore = ({ imagenes, textos }) => {
                                             <img src={imagen.mision} className="img-fluid w-100 rounded" alt="" />
                                         </div>
                                         <div className="col-md-5">
-                                            <h1 className="display-7 mb-4 text-center">Un papel en el origami!</h1>
+                                            <h1 className="display-7 mb-4 text-center">Te gustara saber que...!</h1>
                                             <p className="mb-4" style={{ textAlign: 'justify' }} dangerouslySetInnerHTML={{ __html: txt.mision }}></p>
 
                                         </div>
@@ -81,7 +81,7 @@ const Explore = ({ imagenes, textos }) => {
                                             <img src={imagen.vision} className="img-fluid w-100 rounded" alt="" />
                                         </div>
                                         <div className="col-md-5">
-                                            <h1 className="display-7 mb-4 text-center">Una visión panoramica!</h1>
+                                            <h1 className="display-7 mb-4 text-center">Algo mas especial!</h1>
                                             <p className="mb-4" style={{ textAlign: 'justify' }} dangerouslySetInnerHTML={{ __html: txt.vision }}></p>
                                         </div>
                                     </div>
@@ -92,7 +92,7 @@ const Explore = ({ imagenes, textos }) => {
                                             <img src={imagen.logo} className="img-fluid w-100 rounded" alt="" />
                                         </div>
                                         <div className="col-md-5">
-                                            <h1 className="display-7 mb-4 text-center" >A donde vamos dejamos huella!</h1>
+                                            <h1 className="display-7 mb-4 text-center" >Postres y galletas!</h1>
                                             <p className="mb-4" style={{ textAlign: 'justify' }} dangerouslySetInnerHTML={{ __html: txt.logo }}></p>
                                         </div>
                                     </div>

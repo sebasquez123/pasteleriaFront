@@ -5,13 +5,19 @@
     --color4:#ffffff;
 }
 
+.cursiva{
+    
+    font-family: 'Brush Script MT';
+    font-size: 70px;
 
+}
 html{
     scrollbar-width:none;
+    
 }
-h1{
+/* h1{
     color: var(--color3) !important;
-}
+} */
 
 .back-to-top {
     position: fixed;

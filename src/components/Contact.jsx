@@ -57,7 +57,7 @@ const Contact = ({ textos }) => {
 
 
 
-            return await { titulo: 'Muy bien', cuerpo: 'Mensaje enviado con exito,nos pondremos en contacto contigo, Gracias por ser tu!!' };
+            return await { titulo: 'Muy bien', cuerpo: 'Mensaje enviado con exito, Gracias por ser tu!!' };
 
         }
         catch (error) {
@@ -77,8 +77,9 @@ const Contact = ({ textos }) => {
                     <div className="row g-5">
                         <div className="col-xl-6">
                             <div className="wow fadeInUp" data-wow-delay="0.2s" style={{ visibility: 'visible', animationDelay: '0.2s', animationName: 'fadeInUp' }}>
-                                <h1 className="display-5 mb-4 color3">Contacta con nosotros</h1>
-                                <p className="mb-0 color3 " style={{ textAlign: 'justify' }}>En <em><strong>{txt.nombre}</strong></em>, estamos profundamente agradecidos por tu interés en ser parte de nuestro proyecto. Al unirte a nosotros, no solo apoyas un equipo dedicado a la innovación y el desarrollo tecnológico, sino que también contribuyes al crecimiento de una comunidad apasionada por la ingeniería y la aviación. Con tu participación, volaremos más lejos, construyendo un futuro lleno de oportunidades y logros compartidos.
+                                <h2 className="color1 fw-bold">¿¡Donde encontrarnos!?</h2>
+                                <h1 className="display-5 mb-4 color3 cursiva">Contacta con nosotros</h1>
+                                <p className="mb-0 color3 " style={{ textAlign: 'justify' }}>En <em><strong>{txt.nombre}</strong></em>, estamos encantados de saber de ti y de poder ser parte de tus momentos más especiales. Ya sea que necesites más información, desees hacer un pedido personalizado o simplemente quieras conocer más sobre nuestros productos, no dudes en contactarnos. Estamos comprometidos en brindarte la mejor atención. ¡Si tienes alguna queja, solicitud o simplemente deseas regalar un lindo comentario, puedes hacerlo por estos medios!.
                                 </p>
                                 <br />
                                 <div className="bg-light rounded p-5 mb-5">
@@ -121,7 +122,7 @@ const Contact = ({ textos }) => {
                                 </div>
                                 <div id="donar" className="bg-light p-5 rounded h-100 wow fadeInUp" data-wow-delay="0.2s" style={{ visibility: 'visible', animationDelay: '0.2s', animationName: 'fadeInUp' }}>
                                     <h4 className="color3 fw-bold">Dejanos saber que estas ahí</h4>
-                                    <p className="mb-4" style={{ textAlign: 'justify' }}>Si deseas ser parte de esta iniciativa; hacer una <strong>donación</strong>, apoyar el talento profesional, acceder a la <strong>propuesta corporativa</strong> o regalar un comentario alentador, puedes hacerlo a continuación... al darle enviar, estas confirmando que has leído atentamente los términos de <Link className="color1 fw-bold" to="/politicas_de_privacidad">tratamiento de datos y confidencialidad</Link>.</p>
+                                    <p className="mb-4" style={{ textAlign: 'justify' }}>Si deseas obtener un 15% de descuento en tu proxima compra; hacer un <strong>comentario, solicitar contacto</strong>, o acceder a la <strong>proximos descuentos y promociones</strong>, puedes hacerlo a continuación... Recuerda, al darle enviar, estas confirmando que has leído y aceptado atentamente los términos de <Link className="color1 fw-bold" to="/politicas_de_privacidad">tratamiento de datos y confidencialidad</Link>.</p>
                                     <form onSubmit={sendmessage}>
                                         <div className="row g-4">
                                             <div className="col-lg-12 col-xl-6">
@@ -150,7 +151,7 @@ const Contact = ({ textos }) => {
 
                                             </div>
                                             <div className="col-12">
-                                                <input type="submit" className="btn botonletras w-100 py-3 " value="Enviar mensaje" />
+                                                <input type="submit" className="btn botonletras w-100 py-3 background1  color4" value="Enviar mensaje" />
                                             </div>
                                         </div>
                                     </form>
@@ -159,7 +160,7 @@ const Contact = ({ textos }) => {
 
 
 
-                            <div id="formalert" className={`alert alert-success ${alerthandler}`} role="alert">
+                            <div id="formalert" className={`alert alert-success background2 m-0 ${alerthandler}`} role="alert">
                                 <h4 className="alert-heading">{mensaje.titulo}</h4>
                                 <p>{mensaje.cuerpo}</p>
                                 <hr />
@@ -179,7 +180,7 @@ const Contact = ({ textos }) => {
                         </div>
                         <div className="col-xl-6 wow fadeInRight" data-wow-delay="0.2s" style={{ visibility: 'visible', animationDelay: '0.2s', animationName: 'fadeInRight' }}>
                             <div className="rounded h-100">
-                                <iframe id="iframeapigoogle" className="rounded h-100 w-100" style={{ height: '400px' }} src="https://maps.google.com/maps?q=universidad%20tecnologica%20de%20pereira&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="apigooglemaps"></iframe>
+                                <iframe id="iframeapigoogle" className="rounded h-100 w-100" style={{ height: '400px' }} src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=carrera%2025%20pereira%20calle%2068b+(Your%20Business%20Name)&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="apigooglemaps"></iframe>
                             </div>
                         </div>
                     </div>

@@ -23,11 +23,11 @@ const Footer = ({ textos }) => {
                     <div className="col-md-6 col-lg-6 col-xl-2">
                         <div className="footer-item">
                             <h4 className="text-white mb-4">Links rapidos</h4>
-                            <Link to="intro" smooth={true} duration={300} style={{ cursor: 'pointer' }}><i className="fas fa-angle-right me-2" ></i> Inicio</Link>
-                            <Link to="explore" smooth={true} duration={300} style={{ cursor: 'pointer' }}><i className="fas fa-angle-right me-2"></i> Sobre nosotros</Link>
-                            <Link to="avances" smooth={true} duration={300} style={{ cursor: 'pointer' }}><i className="fas fa-angle-right me-2"></i> Avances</Link>
-                            <Link to="competition" smooth={true} duration={300} style={{ cursor: 'pointer' }}><i className="fas fa-angle-right me-2"></i> Competencia</Link>
-                            <Link to="business" smooth={true} duration={300} style={{ cursor: 'pointer' }}><i className="fas fa-angle-right me-2"></i> Propuestas</Link>
+                            <Link to="header" smooth={true} duration={300} style={{ cursor: 'pointer' }}><i className="fas fa-angle-right me-2" ></i> Inicio</Link>
+                            <Link to="explore" smooth={true} duration={300} style={{ cursor: 'pointer' }}><i className="fas fa-angle-right me-2"></i> Alicia</Link>
+                            <Link to="competition" smooth={true} duration={300} style={{ cursor: 'pointer' }}><i className="fas fa-angle-right me-2"></i> Como comprar</Link>
+                            <Link to="business" smooth={true} duration={300} style={{ cursor: 'pointer' }}><i className="fas fa-angle-right me-2"></i> Combos</Link>
+                            <Link to="productos" smooth={true} duration={300} style={{ cursor: 'pointer' }}><i className="fas fa-angle-right me-2"></i> Productos</Link>
 
                         </div>
                     </div>
@@ -37,15 +37,15 @@ const Footer = ({ textos }) => {
                             <h4 className="text-white mb-4">Contact Info</h4>
                             <div className="d-flex align-items-center">
                                 <i className="fas fa-map-marker-alt color4 me-3"></i>
-                                <p className="text-white mb-0">Cra. 27 #10-02 Universidad Tecnologica de Pereira</p>
+                                <p className="text-white mb-0">Mz12 Cs16 Av principal, San Fernando Cuba</p>
                             </div>
                             <div className="d-flex align-items-center">
                                 <i className="fas fa-envelope color4 me-3"></i>
-                                <p className="text-white mb-0">macmotusteam@gmail.com</p>
+                                <p className="text-white mb-0">pasteleria.alicia4@gmail.com</p>
                             </div>
                             <div className="d-flex align-items-center">
                                 <i className="fa fa-phone-alt color4 me-3"></i>
-                                <p className="text-white mb-0">(+57) 3044626822</p>
+                                <p className="text-white mb-0">(+57) 3126567098</p>
                             </div>
                             <br />
                             <div className="d-flex ">

@@ -1,11 +1,11 @@
 const constants = {
 
   navbar:[
-  { name: "Intro", path: "intro" },
-  {name: "Macmotus" ,path: "explore"},
-  {name: "Competencia" ,path: "competition"},
-  {name: "Propuesta empresarial" ,path: "business"},
-  {name: "Contacto", path: "contact" }
+  { name: "Inicio", path: "header" },
+  {name: "Alicia" ,path: "explore"},
+  {name: "Como comprar" ,path: "competition"},
+  {name: "Combos" ,path: "business"},
+  {name: "Contactanos", path: "contact" }
   
 ],
 
