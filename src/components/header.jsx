@@ -73,7 +73,7 @@ const Header = ({ constants, imagenes, textos }) => {
 
                             <div className="text-center">
                                 <h2 className="color4 mb-2" >{txt.titulo1}</h2>
-                                <h1 className="color4 mb-2 cursiva" >{txt.titulo2}</h1>
+                                <h1 className="color4 mb-2 cursivah1" >{txt.titulo2}</h1>
                                 <p id="textheader" className="mb-5 p-5 fs-5 color4" dangerouslySetInnerHTML={{ __html: txt.titulo3 }}></p>
                                 <div className="d-flex justify-content-center flex-shrink-0 mb-4">
                                     <a href={txt.video} className="btn btn-light  rounded-pill py-3 px-4 px-md-5 me-2" target='blank'><i className="fas fa-play-circle me-2"></i> Ver video</a>
