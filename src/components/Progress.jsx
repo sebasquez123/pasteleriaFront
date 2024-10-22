@@ -45,7 +45,7 @@ const Progress = ({ imagenes, textos }) => {
                                 <div className="rounded-bottom p-4 limit-text">
                                     <a href="/" className="h4 d-inline-block mb-4 letras" onClick={(e) => e.preventDefault()} >{txt.titulo1.titulo}</a>
                                     <p className="mb-4" style={{ textAlign: 'justify' }} dangerouslySetInnerHTML={{ __html: txt.titulo1.texto }}></p>
-                                    <a className="btn botonletras rounded-pill py-2 px-4 background1 color4" target="blank" href="https://wa.me/573126567098?text=Que$20precio$20tienes$20las$20tortas$20frias?" smooth={true} duration={300}>Saber Mas</a>                                </div>
+                                    <a className="btn botonletras rounded-pill py-2 px-4 background1 color4" target="blank" href="https://wa.me/573126567098?text=Que$20precio$20tienes$20las$20tortas$20frias?">Saber Mas</a>                                </div>
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s" style={{ visibility: 'visible', animationDelay: '0.6s', animationName: 'fadeInUp' }}>
@@ -56,7 +56,7 @@ const Progress = ({ imagenes, textos }) => {
                                 <div className="rounded-bottom p-4 limit-text">
                                     <a href="/" className="h4 d-inline-block mb-4 letras" onClick={(e) => e.preventDefault()}>{txt.titulo2.titulo}</a>
                                     <p className="mb-4" style={{ textAlign: 'justify' }} dangerouslySetInnerHTML={{ __html: txt.titulo2.texto }}></p>
-                                    <a className="btn botonletras rounded-pill py-2 px-4 background1 color4" target="blank" href="https://wa.me/573126567098?text=Que$20precio$20tienes$20las$20tortas$20en%20ponqué$20decoradas?" smooth={true} duration={300}>Saber Mas</a>                                </div>
+                                    <a className="btn botonletras rounded-pill py-2 px-4 background1 color4" target="blank" href="https://wa.me/573126567098?text=Que$20precio$20tienes$20las$20tortas$20en%20ponqué$20decoradas?" >Saber Mas</a>                                </div>
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s" style={{ visibility: 'visible', animationDelay: '0.4s', animationName: 'fadeInUp' }}>
@@ -67,7 +67,7 @@ const Progress = ({ imagenes, textos }) => {
                                 <div className="rounded-bottom p-4 limit-text">
                                     <a href="##" className="h4 d-inline-block mb-4 letras" onClick={(e) => e.preventDefault()}>{txt.titulo3.titulo}</a>
                                     <p className="mb-4" style={{ textAlign: 'justify' }} dangerouslySetInnerHTML={{ __html: txt.titulo3.texto }}></p>
-                                    <a className="btn botonletras rounded-pill py-2 px-4 background1 color4" target="blank" href="https://wa.me/573126567098?text=Que$20precio$20tienes$20las$20tortas$20en%20fondant?" smooth={true} duration={300} >Saber Mas</a>
+                                    <a className="btn botonletras rounded-pill py-2 px-4 background1 color4" target="blank" href="https://wa.me/573126567098?text=Que$20precio$20tienes$20las$20tortas$20en%20fondant?" >Saber Mas</a>
                                 </div>
                             </div>
                         </div>
